@@ -9,9 +9,24 @@ export const PotatoContainer = styled.div`
   border-radius: ${rem(20)};
   margin-top: ${rem(150)};
   position: relative;
+
   .righttop {
     right: ${rem(53)};
     top: ${rem(-64)};
+  }
+  &:hover {
+    .downtoup {
+      animation: DownToUp 1s linear;
+    }
+  }
+
+  @keyframes DownToUp {
+    0% {
+      transform: translateY(${rem(50)});
+    }
+    to {
+      transform: none;
+    }
   }
 `;
 
@@ -35,25 +50,11 @@ export const PotatoBox = styled.div`
   right: 0;
   width: ${rem(495)};
   height: ${rem(150)};
-
   overflow: hidden;
-`;
-
-const DownToUp = keyframes`
-  0% {
-    transform: translateY(${rem(50)});
-  }
-  to {
-    transform: none;
-  }
 `;
 
 export const ImgBox = styled.img`
   position: absolute;
-
-  /* &:hover {
-    animation: ${DownToUp} 1s linear;
-  } */
 
   &.s158 {
     width: ${rem(158)};
@@ -69,6 +70,10 @@ export const ImgBox = styled.img`
     width: ${rem(81)};
     height: ${rem(81)};
   }
+  &.s28 {
+    width: ${rem(28)};
+    height: ${rem(28)};
+  }
 
   &.center {
     left: ${rem(233)};
@@ -82,23 +87,12 @@ export const ImgBox = styled.img`
     left: ${rem(114)};
     bottom: ${rem(-42)};
   }
-
   &.rightcorner {
     right: 0;
     top: ${rem(3)};
   }
-
   &.rightbottom {
     left: ${rem(402)};
     bottom: ${rem(-39)};
-  }
-
-  &.s28 {
-    width: ${rem(28)};
-    height: ${rem(28)};
-  }
-  &.thin {
-    width: ${rem(100)};
-    height: ${rem(100)};
   }
 `;
