@@ -9,11 +9,13 @@ export const PotatoContainer = styled.div`
   border-radius: ${rem(20)};
   margin-top: ${rem(150)};
   position: relative;
-  overflow: hidden;
+  .righttop {
+    right: ${rem(53)};
+    top: ${rem(-64)};
+  }
 `;
 
 export const IntroBox = styled.div`
-  border: 3px solid red;
   margin-left: ${rem(54)};
   color: ${({ theme }) => theme.colors.black_001};
   filter: none;
@@ -33,6 +35,8 @@ export const PotatoBox = styled.div`
   right: 0;
   width: ${rem(495)};
   height: ${rem(150)};
+
+  overflow: hidden;
 `;
 
 const DownToUp = keyframes`
@@ -50,6 +54,7 @@ export const ImgBox = styled.img`
   /* &:hover {
     animation: ${DownToUp} 1s linear;
   } */
+
   &.s158 {
     width: ${rem(158)};
     height: ${rem(158)};
@@ -86,10 +91,6 @@ export const ImgBox = styled.img`
   &.rightbottom {
     left: ${rem(402)};
     bottom: ${rem(-39)};
-  }
-  &.righttop {
-    left: ${rem(326)};
-    top: ${rem(-64)};
   }
 
   &.s28 {
