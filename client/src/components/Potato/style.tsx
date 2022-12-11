@@ -9,23 +9,22 @@ export const PotatoContainer = styled.div`
   border-radius: ${rem(20)};
   margin-top: ${rem(150)};
   position: relative;
-
   .righttop {
     right: ${rem(53)};
     top: ${rem(-64)};
   }
   &:hover {
     .downtoup {
-      animation: DownToUp 1s linear;
+      animation: DownToUp 1s ease-in-out;
     }
   }
 
   @keyframes DownToUp {
     0% {
-      transform: translateY(${rem(50)});
+      opacity: 0;
     }
     to {
-      transform: none;
+      opacity: 1;
     }
   }
 `;
