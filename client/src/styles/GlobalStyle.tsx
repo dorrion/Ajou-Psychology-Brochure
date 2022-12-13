@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans', 'Noto Sans KR', sans-serif;
+    color: #252525;
 }
 button{
     cursor:pointer;
