@@ -31,13 +31,11 @@ export const PotatoContainer = styled.div`
 
 export const IntroBox = styled.div`
   margin-left: ${rem(54)};
-  color: ${({ theme }) => theme.colors.text1};
   filter: none;
 `;
 
 export const PotatoIntro = styled.h1`
   font-size: ${rem(30)};
-  color: ${({ theme }) => theme.colors.text1};
 `;
 
 export const PotatoSub = styled.div`
