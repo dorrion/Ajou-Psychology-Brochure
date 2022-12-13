@@ -1,4 +1,5 @@
 module.exports = {
+  // src의 stories가 중간인 애들 다 불러온다
   stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
     '@storybook/addon-links',

@@ -18,3 +18,5 @@ declare module '*.svg' {
   const value: any;
   export = value;
 }
+// 스토리북 문서화 mdx 파일
+declare module '*.mdx';
