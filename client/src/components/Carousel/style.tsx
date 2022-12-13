@@ -10,7 +10,7 @@ export const CarouselContainer = styled.div`
 export const CarouselBox = styled.div`
   width: ${rem(1280)};
   height: 100%;
-  background-color: ${({ theme }) => theme.colors.black_002};
+  background-color: ${({ theme }) => theme.colors.bgElement1};
   border-radius: ${rem(20)};
   margin: 0 ${rem(20)};
   margin-top: ${rem(40)};

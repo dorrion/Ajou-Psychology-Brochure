@@ -6,7 +6,7 @@ export const HeaderContainer = styled.ul`
   /* width: ${rem(1920)}; */
   width: 100vw;
   height: ${rem(100)};
-  border-bottom: 1px solid ${({ theme }) => theme.colors.black_003};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.line};
 `;
 
 export const HeaderMenu = styled.li`

@@ -5,7 +5,7 @@ export const PotatoContainer = styled.div`
   ${({ theme }) => theme.mixins.flexBox('row', 'center', 'flex-start')}
   width: ${rem(1280)};
   height: ${rem(150)};
-  background-color: ${({ theme }) => theme.colors.yellow_002};
+  background-color: ${({ theme }) => theme.colors.colorSecondary};
   border-radius: ${rem(20)};
   margin-top: ${rem(150)};
   position: relative;
@@ -31,13 +31,13 @@ export const PotatoContainer = styled.div`
 
 export const IntroBox = styled.div`
   margin-left: ${rem(54)};
-  color: ${({ theme }) => theme.colors.black_001};
+  color: ${({ theme }) => theme.colors.text1};
   filter: none;
 `;
 
 export const PotatoIntro = styled.h1`
   font-size: ${rem(30)};
-  color: ${({ theme }) => theme.colors.black_001};
+  color: ${({ theme }) => theme.colors.text1};
 `;
 
 export const PotatoSub = styled.div`
