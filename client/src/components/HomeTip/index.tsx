@@ -13,19 +13,21 @@ interface TipProps {
 }
 
 /**
- * 안녕하세요 라고 보여주고 싶을 땐 `Hello` 컴포넌트를 사용하세요.
+ * 심리학과에서 살아남기 모달로 연결시킬 때 `HomeTip` 컴포넌트를 사용합니다.
  *
- * - `big` 값을 `true`로 설정하면 **크게** 나타납니다.
- * - `onHello` 와 `onBye` props로 설정하여 버튼이 클릭했을 때 호출 할 함수를 지정 할 수 있습니다.
+ * - 아직 안했지만 `isOpen`을 `true`로 설정하면 **모달창**이 나타납니다.
+ * - `onClick`을 props로 설정하여 버튼이 클릭했을 때 모달 창을 열리고 닫히게 하는 함수를 호출합니다.
  */
-const Hello = ({ title, subtitle, tag, onClick }: TipProps) => {
+function Hello({ title, subtitle, tag, onClick }: TipProps) {
   return (
     <S.Box onClick={onClick}>
-      <div>{title}</div>
-      <div>{subtitle}</div>
+      <S.TitleBox>
+        <S.Title>{title}</S.Title>
+        <S.SubTitle>{subtitle}</S.SubTitle>
+      </S.TitleBox>
       <div>{tag}</div>
     </S.Box>
   );
-};
+}
 
 export default Hello;
