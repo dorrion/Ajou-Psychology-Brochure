@@ -15,7 +15,7 @@ export const TagContainer = styled.div`
 
   p {
     color: ${({ theme }) => theme.colors.line};
-    margin: ${rem(8)};
+    margin: ${rem(10)};
   }
 
   &.gray {

@@ -8,7 +8,7 @@ export const Box = styled.div`
   box-shadow: ${rem(4)} ${rem(4)} ${rem(20)} ${({ theme }) => theme.colors.shadow};
   display: flex;
   flex-direction: column;
-  padding: ${rem(25)};
+  padding: ${rem(15)};
   margin: ${rem(20)};
 `;
 
