@@ -1,15 +1,18 @@
 import { DefaultTheme } from 'styled-components';
 
 const colors = {
-  black_001: '#252525',
-  black_002: '#5C5C5C',
-  black_003: '#C3C3C3',
-  black_004: '#D9D9D9',
+  // 다크모드 생각하고 변수명 짜기
+  colorPrimary: '#8EB695',
+  colorSecondary: '#F2E2C6',
 
+  bgColor: '#ffffff',
+
+  text1: '#252525',
+  line: '#C3C3C3',
+  shadow: '#D9D9D9',
+
+  bgElement1: '#5C5C5C',
   yellow_001: '#FFC05C',
-  yellow_002: '#F2E2C6',
-
-  green_001: '#8EB695',
 };
 
 const mixins = {

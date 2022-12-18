@@ -1,14 +1,17 @@
+import { useNavigate } from 'react-router-dom';
 import * as S from './style';
 
-const index = () => {
+const Index = () => {
+  const navigate = useNavigate();
+
   return (
     <S.HeaderContainer>
-      <S.HeaderMenu>소개</S.HeaderMenu>
-      <S.HeaderMenu>대학원</S.HeaderMenu>
-      <S.HeaderMenu>취업</S.HeaderMenu>
-      <S.HeaderMenu>유학</S.HeaderMenu>
+      <S.HeaderMenu onClick={() => navigate('/Introduce')}>소개</S.HeaderMenu>
+      <S.HeaderMenu onClick={() => navigate('/Graduate')}>대학원</S.HeaderMenu>
+      <S.HeaderMenu onClick={() => navigate('/Employment')}>취업</S.HeaderMenu>
+      <S.HeaderMenu onClick={() => navigate('/Abroad')}>유학</S.HeaderMenu>
     </S.HeaderContainer>
   );
 };
 
-export default index;
+export default Index;
