@@ -1,0 +1,38 @@
+[
+  {
+  "memberId":1,
+  "profileImg": "image/나연.png",
+  "name": "이나연",
+  "role": ["Officer of the project", "Planning", "Making E-book", "Designing web page"]
+  },
+  {
+  "memberId":2,
+  "profileImg": "image/문경.png",
+  "name": "김문경",
+  "role": ["Translator", "Planning"]
+  },
+  {
+  "memberId":3,
+  "profileImg": "image/오은.png",
+  "name": "김오은",
+  "role": ["Making web page"]
+  },
+  {
+  "memberId":4,
+  "profileImg": "image/정운.png",
+  "name": "서정운",
+  "role": ["Making web page"]
+  },
+  {
+  "memberId":5,
+  "profileImg": "image/도연.png",
+  "name": "임도연",
+  "role": ["Planning", "Designing web page"]
+  },
+  {
+  "memberId":6,
+  "profileImg": "image/영수.png",
+  "name": "장영수",
+  "role": ["Planning", "Survey"]
+  }
+]
