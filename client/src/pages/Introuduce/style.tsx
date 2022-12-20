@@ -3,10 +3,13 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   ${({ theme }) => theme.mixins.flexBox('column', 'center', 'center')}
+
+  section {
+    width: ${rem(1280)};
+  }
 `;
 
 export const IntroContainer = styled.div`
-  width: ${rem(1280)};
   margin-top: ${rem(40)};
 
   h1 {
