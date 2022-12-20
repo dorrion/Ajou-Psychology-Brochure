@@ -16,11 +16,6 @@ export const PotatoContainer = styled.div`
     right: ${rem(53)};
     top: ${rem(-64)};
   }
-  &:hover {
-    .downtoup {
-      animation: DownToUp 1s ease-in-out;
-    }
-  }
 
   @keyframes DownToUp {
     0% {
