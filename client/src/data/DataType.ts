@@ -5,3 +5,9 @@ export interface HomeDataType {
   category?: string;
   tag?: string[];
 }
+export interface MemberDataType {
+  memberId?: number;
+  name?: string;
+  profileImg?: string;
+  role?: string[];
+}
