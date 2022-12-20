@@ -1,6 +1,6 @@
 import * as S from './style';
 import IntroBox from 'components/IntroBox';
-
+import MemberWrapper from './MemberWrapper';
 export default function index() {
   return (
     <S.Container>
@@ -75,6 +75,7 @@ export default function index() {
         </section>
         <section>
           <h1>Our members</h1>
+          <MemberWrapper />
         </section>
       </S.IntroContainer>
     </S.Container>
