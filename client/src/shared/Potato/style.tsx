@@ -37,6 +37,7 @@ export const PotatoIntro = styled.h1`
 `;
 
 export const PotatoSub = styled.div`
+  ${({ theme }) => theme.mixins.flexBox('row', 'center', 'center')}
   font-size: ${rem(15)};
 `;
 

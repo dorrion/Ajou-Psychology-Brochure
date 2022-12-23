@@ -1,15 +1,18 @@
 import * as S from './style';
 import { Arrow } from 'assets/icon';
 import Potato from 'assets/icon/Potato.svg';
+import { useNavigate } from 'react-router-dom';
 
-const index = () => {
+const Index = () => {
+  const navigate = useNavigate();
   return (
     <>
       <S.PotatoContainer>
         <S.IntroBox>
           <S.PotatoIntro>구르는 감자단 소개</S.PotatoIntro>
           <S.PotatoSub>
-            프로젝트 사용 설명 및 팀 소개 <Arrow />
+            프로젝트 사용 설명 및 팀 소개{' '}
+            <Arrow onClick={() => navigate('/Introduce')} />
           </S.PotatoSub>
         </S.IntroBox>
         <S.ImgBox className='s116 righttop downtoup' src={Potato} />
@@ -26,4 +29,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
