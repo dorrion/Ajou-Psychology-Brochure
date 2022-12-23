@@ -6,6 +6,7 @@ const Index = () => {
 
   return (
     <S.HeaderContainer>
+      <S.HeaderMenu onClick={() => navigate('/')}>로고</S.HeaderMenu>
       <S.HeaderMenu onClick={() => navigate('/Introduce')}>소개</S.HeaderMenu>
       <S.HeaderMenu onClick={() => navigate('/Graduate')}>대학원</S.HeaderMenu>
       <S.HeaderMenu onClick={() => navigate('/Employment')}>취업</S.HeaderMenu>

@@ -10,6 +10,7 @@ export const HeaderContainer = styled.ul`
 `;
 
 export const HeaderMenu = styled.li`
+  cursor: pointer;
   font-size: ${rem(18)};
   margin-right: ${rem(78)};
 `;
