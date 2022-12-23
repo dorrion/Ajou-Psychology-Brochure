@@ -6,7 +6,8 @@ export const PotatoContainer = styled.div`
   width: ${rem(1280)};
   height: ${rem(150)};
   background-color: ${({ theme }) => theme.colors.colorSecondary};
-  background-image: url('/image/감자배경.png');
+  /* background-image: url('/image/감자배경.png'); */
+  background-image: url('blob:https://ajouackr-my.sharepoint.com/46fca5fe-4156-4e31-9e0d-ffaca2600557');
   background-position: center;
   background-size: cover;
   border-radius: ${rem(20)};
