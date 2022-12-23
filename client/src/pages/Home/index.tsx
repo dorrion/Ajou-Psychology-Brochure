@@ -1,8 +1,9 @@
+import { rem } from 'polished';
+import styled from 'styled-components';
 import Carousel from 'components/Carousel';
 import Potato from 'shared/Potato';
 import TipWrapper from './TipWrapper';
-import { rem } from 'polished';
-import styled from 'styled-components';
+import Modal from 'shared/Modal';
 const Home = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Home = () => {
           <TipWrapper />
         </TipContainer>
       </HomeContainer>
+      <Modal />
     </>
   );
 };
