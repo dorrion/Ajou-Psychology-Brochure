@@ -5,15 +5,17 @@ import { rem } from 'polished';
 import styled from 'styled-components';
 const Home = () => {
   return (
-    <HomeContainer>
+    <>
       <Carousel />
-      <Potato />
-      <TipContainer>
-        <h1> 심리학과에서 살아남기</h1>
-        <div> 아주대학교 심리학과 학생들에게 유용한 정보를 소개합니다.</div>
-        <TipWrapper />
-      </TipContainer>
-    </HomeContainer>
+      <HomeContainer>
+        <Potato />
+        <TipContainer>
+          <h1> 심리학과에서 살아남기</h1>
+          <div> 아주대학교 심리학과 학생들에게 유용한 정보를 소개합니다.</div>
+          <TipWrapper />
+        </TipContainer>
+      </HomeContainer>
+    </>
   );
 };
 
